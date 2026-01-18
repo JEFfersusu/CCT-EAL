@@ -1,0 +1,1 @@
+We provide a clean PyTorch implementation of CCT-EAL, a training-time loss function that integrates class-conditional temperature scaling with entropy alignment for calibrated and class-balanced medical image classification.
