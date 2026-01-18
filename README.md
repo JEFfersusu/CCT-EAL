@@ -3,7 +3,7 @@ Official PyTorch implementation of "Learning Class-Conditional Temperature with 
 Temperature-based entropy regularization methods have evolved from fixed-temperature entropy maximization ([TET Loss](https://github.com/JEFfersusu/TET_loss)), to learnable global temperature with entropy constraints ([MiT Loss](https://github.com/JEFfersusu/MiT_loss)).
 However, existing approaches rely on a single global temperature and unstable entropy targets, limiting their effectiveness under class imbalance.
 
-This CCT-EAL extends this line of work by introducing class-conditional temperatures and a stable entropy alignment objective, where the predictive entropy is softly aligned with an EMA-estimated label entropy.
+CCT-EAL extends this line of work by introducing class-conditional temperatures and a stable entropy alignment objective, where the predictive entropy is softly aligned with an EMA-estimated label entropy.
 This design enables end-to-end calibration during training, avoids dual-variable instability, and better accommodates class-dependent uncertainty.
 
 ### Comparison of Temperature–Entropy Based Training Losses
