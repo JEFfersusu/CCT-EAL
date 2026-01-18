@@ -13,3 +13,7 @@ This design enables end-to-end calibration during training, avoids dual-variable
 | TET Loss     | Fixed                | Higher is better      | Fixed λ            | ❌        |
 | MiT Loss      | Globally learnable    | Empirical label entropy | Dual update        | ⚠️        |
 | **CCT-EAL** | **Class-conditional learnable** | **EMA label entropy** | **Warm-up α**      | ✅        |
+
+
+If you have any questions, please contact: panweichao01@outlook.com.
+
