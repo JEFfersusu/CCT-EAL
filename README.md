@@ -17,6 +17,7 @@ This design enables end-to-end calibration during training, avoids dual-variable
 **Note: TET Loss, MiT Loss, and CCT-EAL were introduced across different publications due to practical constraints and evolving research focus. Although they were not evaluated in a single unified study, all three methods have been independently published. We plan to further consolidate and refine this line of work in future research.**
 
 ## Citation
+```bibtex
 If you think that our work is useful to your research, please cite using this BibTeX😊:
 @article{CCTEAL_2026,
   title={Learning Class-Conditional Temperature with Entropy Alignment for Medical Image Classification},
@@ -25,6 +26,7 @@ If you think that our work is useful to your research, please cite using this Bi
   year={2026},
   organization={IEEE}
 }
+```
 
 If you have any questions, please contact: panweichao01@outlook.com.
 
