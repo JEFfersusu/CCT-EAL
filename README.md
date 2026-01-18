@@ -1,4 +1,4 @@
-Official PyTorch implementation of "MiT Loss: Medical Image-aware Transfer-calibrated Loss for Enhanced Classification".
+Official PyTorch implementation of "Learning Class-Conditional Temperature with Entropy Alignment for Medical Image Classification".
 
 Temperature-based entropy regularization methods have evolved from fixed-temperature entropy maximization ([TET Loss](https://github.com/JEFfersusu/TET_loss)), to learnable global temperature with entropy constraints ([MiT Loss](https://github.com/JEFfersusu/MiT_loss)).
 However, existing approaches rely on a single global temperature and unstable entropy targets, limiting their effectiveness under class imbalance.
