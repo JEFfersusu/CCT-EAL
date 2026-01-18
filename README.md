@@ -14,6 +14,7 @@ This design enables end-to-end calibration during training, avoids dual-variable
 | MiT Loss      | Globally learnable    | Empirical label entropy | Dual update        | ⚠️        |
 | **CCT-EAL** | **Class-conditional learnable** | **EMA label entropy** | **Warm-up α**      | ✅        |
 
+**Note: TET Loss, MiT Loss, and CCT-EAL were introduced across different publications due to practical constraints and evolving research focus. Although they were not evaluated in a single unified study, all three methods have been independently published. We plan to further consolidate and refine this line of work in future research.**
 
 If you have any questions, please contact: panweichao01@outlook.com.
 
