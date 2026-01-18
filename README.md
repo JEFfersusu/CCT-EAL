@@ -10,6 +10,6 @@ This design enables end-to-end calibration during training, avoids dual-variable
 
 | Method   | Temperature Modeling | Entropy Target        | Weighting Strategy | Stability |
 |----------|----------------------|-----------------------|--------------------|-----------|
-| TET      | Fixed                | Higher is better      | Fixed λ            | ❌        |
-| MiT      | Globally learnable    | Empirical label entropy | Dual update        | ⚠️        |
+| TET Loss     | Fixed                | Higher is better      | Fixed λ            | ❌        |
+| MiT Loss      | Globally learnable    | Empirical label entropy | Dual update        | ⚠️        |
 | **CCT-EAL** | **Class-conditional learnable** | **EMA label entropy** | **Warm-up α**      | ✅        |
