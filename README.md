@@ -24,9 +24,11 @@ If you think that our work is useful to your research, please cite using this Bi
 
 @article{CCTEAL_2026,
   title={Learning Class-Conditional Temperature with Entropy Alignment for Medical Image Classification},
-  author={Weichao Pan and Xu Wang and Ruida Liu and Chengze Lv and Puyu Han and Luqi Gong},
+  pages={2891-2895},
+  author={Pan, Weichao and Liu, Ruida and Lv, Chengze and Han, Puyu and Gong, Luqi and Wang, Xu},
   journal={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2026}
+  year={2026},
+  doi={10.1109/ICASSP55912.2026.11461570}
 }
 ```
 
