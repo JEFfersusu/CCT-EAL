@@ -6,6 +6,8 @@ However, existing approaches rely on a single global temperature and unstable en
 CCT-EAL extends this line of work by introducing class-conditional temperatures and a stable entropy alignment objective, where the predictive entropy is softly aligned with an EMA-estimated label entropy.
 This design enables end-to-end calibration during training, avoids dual-variable instability, and better accommodates class-dependent uncertainty.
 
+**The usage method can be referred to [the ipynb file of MiT_loss](https://github.com/JEFfersusu/MiT_loss/blob/main/Example_of%20_training.ipynb).**
+
 ### Comparison of Temperature–Entropy Based Training Losses
 
 | Method   | Temperature Modeling | Entropy Target        | Weighting Strategy | Stability |
